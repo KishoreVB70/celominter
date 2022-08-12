@@ -1,0 +1,45 @@
+.App {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 99.7%;
+    width: 99.7%;
+  }
+  
+  html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  #root{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  
+  .account{
+    border: 2px solid black;
+  }
+  
+  .mintButton{
+    height: 70px;
+    width: 220px;
+    background-color: #7dd8f2;
+    border-radius: 10px;
+  }
+  
+  .mintButton:hover{
+    background-color: rgb(213, 240, 250);
+  }
+  .minterAddress{
+    border: 2px solid black;
+    width: 100vw;
+  }
+  
